@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 112" role="img" aria-labelledby="title desc">
+  <title id="title">Servi Muebles</title>
+  <desc id="desc">Logotipo de Servi Muebles con un símbolo de hogar</desc>
+  <g fill="none" stroke="#b66d45" stroke-width="7" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M18 53 53 23l35 30v38H18z"/>
+    <path d="M39 91V63h28v28M8 53 53 14l45 39"/>
+  </g>
+  <text x="122" y="57" fill="#292522" font-family="Arial,sans-serif" font-size="39" font-weight="700" letter-spacing="2">SERVI</text>
+  <text x="122" y="91" fill="#b66d45" font-family="Arial,sans-serif" font-size="28" font-weight="700" letter-spacing="4">MUEBLES</text>
+</svg>
