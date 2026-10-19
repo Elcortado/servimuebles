@@ -1,7 +1,7 @@
 /* Configuración editable */
 const WHATSAPP_NUMBER = '5490000000000';
 // Pegá aquí el link normal de YouTube (watch, youtu.be o embed).
-const YOUTUBE_VIDEO_URL = 'https://www.youtube.com/watch?v=ScMzIvxBSi4';
+const YOUTUBE_VIDEO_URL = 'https://www.youtube.com/watch?v=3ZIQhvENsGs';
 
 const $ = (selector, context = document) => context.querySelector(selector);
 const $$ = (selector, context = document) => [...context.querySelectorAll(selector)];
