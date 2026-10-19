@@ -14,7 +14,7 @@
   <body>
     <header class="header">
       <a href="index.html" class="brand"
-        ><img src="img/logo.jpeg" alt="Servi Muebles" /></a
+        ><img src="img/logo.svg" alt="Servi Muebles" /></a
       ><button class="burger" aria-label="Abrir menú" aria-expanded="false">
         <span></span><span></span><span></span>
       </button>
@@ -37,7 +37,7 @@
       <section class="sec">
         <div class="page-content">
           <div class="detail-grid">
-            <article class="detail-card reveal">
+            <article class="detail-card reveal" data-name="Sofás">
               <img
                 src="./img/sala/salaLiving.jpeg"
                 alt="Sofá de sala"
@@ -45,9 +45,9 @@
               <div>
                 <h3>Sofás</h3>
                 <p>Comodidad profunda y telas para disfrutar todos los días.</p>
-              </div>
-            </article>
-            <article class="detail-card reveal">
+              <button class="btn ask" type="button">Consultar <span>↗</span></button>
+              </div></article>
+            <article class="detail-card reveal" data-name="Juego de Comedor">
               <img
                 src="./img/sala/jugoComedor.jpeg"
                 alt="Juego de comedor"
@@ -55,9 +55,9 @@
               <div>
                 <h3>Juego de Comedor</h3>
                 <p>El escenario para tus comidas, reuniones y celebraciones.</p>
-              </div>
-            </article>
-            <article class="detail-card reveal">
+              <button class="btn ask" type="button">Consultar <span>↗</span></button>
+              </div></article>
+            <article class="detail-card reveal" data-name="Complementos">
               <img
                 src="https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=1000&q=85"
                 alt="Mueble de sala"
@@ -65,8 +65,8 @@
               <div>
                 <h3>Complementos</h3>
                 <p>Mesas ratonas y muebles de TV que completan la escena.</p>
-              </div>
-            </article>
+              <button class="btn ask" type="button">Consultar <span>↗</span></button>
+              </div></article>
           </div>
           <div class="center">
             <a class="btn" href="contacto.html"
@@ -79,7 +79,7 @@
     <footer class="footer">
       <div class="fgrid">
         <div>
-          <img class="footer-logo" src="img/logo.jpeg" alt="Servi Muebles" />
+          <img class="footer-logo" src="img/logo.svg" alt="Servi Muebles" />
           <p>Diseño, calidad y calidez para cada ambiente.</p>
         </div>
         <div>
@@ -94,15 +94,13 @@
         </div>
         <div>
           <h4>Contacto</h4>
-          <p>+54 362 000-0000</p>
+          <p>+54 362 455-3052</p>
           <p>Resistencia, Chaco</p>
         </div>
       </div>
       <p class="copy">© 2026 Servi Muebles. Todos los derechos reservados.</p>
     </footer>
-    <a class="wa" id="wa" target="_blank" rel="noopener" aria-label="WhatsApp"
-      >W</a
-    ><button class="top" aria-label="Volver arriba">↑</button>
+    <a class="wa" id="wa" target="_blank" rel="noopener" aria-label="Escribinos por WhatsApp" data-tip="¿Hablamos?"><svg viewBox="0 0 24 24" width="29" height="29" fill="none" aria-hidden="true"><path fill="currentColor" d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm5.2 14.2c-.2.6-1.3 1.2-1.8 1.2-.5.1-1 .2-3.3-.7-2.8-1.1-4.6-4-4.7-4.2-.1-.2-1.1-1.5-1.1-2.8s.7-2 1-2.2c.2-.3.5-.3.7-.3h.5c.2 0 .4 0 .6.5l.8 2c.1.2.1.3 0 .5l-.3.4-.4.5c-.1.1-.3.3-.1.6.2.3.8 1.3 1.7 2.1 1.2 1 2.1 1.3 2.4 1.5.3.1.5.1.6-.1l.9-1.1c.2-.3.4-.2.6-.1l1.9.9c.3.1.5.2.5.3.1.2.1.8-.1 1.4z"/></svg></a><button class="top" aria-label="Volver arriba">↑</button>
     <script src="script.js"></script>
   </body>
 </html>
